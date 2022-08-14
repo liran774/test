@@ -8,7 +8,7 @@ pipeline{
         }
         stage('clone repo'){
             steps{
-                bat "git clone https://github.com/liran774/test.git"
+                bat "git clone https://github.com/liran774/test"
             }
         }
         stage('end of pipe'){

@@ -20,7 +20,7 @@ pipeline{
         stage('docker build'){
             steps{
                 script{
-                bat 'docker build -t my-app-01 .'
+                bat 'docker build . -t liran -f test/Dockerfile '
             }
             }
             
